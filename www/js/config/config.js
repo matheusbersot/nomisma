@@ -39,7 +39,7 @@ modConfig.config(function ($stateProvider) {
   $stateProvider
     .state('home', {
       url: '/home',
-      templateUrl: 'index.html',
+      templateUrl: 'home.html',
       cache: false
     })
 });

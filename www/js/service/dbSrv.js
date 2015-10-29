@@ -35,8 +35,8 @@ angular.module('myApp.services')
         {
           console.log('Table ' + table.name + ' initialized. ');
         },
-          function(msgErro){
-            console.log(msgErro);
+          function(erro){
+            console.log(erro.message);
            }
         )
       });
